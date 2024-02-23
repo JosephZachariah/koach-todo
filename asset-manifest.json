@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/koach-todo/static/css/main.891b15a8.css",
+    "main.js": "/koach-todo/static/js/main.88168e47.js",
+    "static/js/453.bb057178.chunk.js": "/koach-todo/static/js/453.bb057178.chunk.js",
+    "index.html": "/koach-todo/index.html",
+    "main.891b15a8.css.map": "/koach-todo/static/css/main.891b15a8.css.map",
+    "main.88168e47.js.map": "/koach-todo/static/js/main.88168e47.js.map",
+    "453.bb057178.chunk.js.map": "/koach-todo/static/js/453.bb057178.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.891b15a8.css",
+    "static/js/main.88168e47.js"
+  ]
+}
