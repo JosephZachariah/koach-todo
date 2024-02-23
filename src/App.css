@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.outerBox{
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: auto;
+}
+
+.todo-list{
+  height: 90vh;
+  margin-top: 5vh;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  overflow-y: scroll;
+  width: 52%;
+  border-radius: 10px;
+}
+.todo-detail{
+  height: 90vh;
+  margin-top: 5vh;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 47%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.todo-item{
+  padding: 5px;
+}
+.todo-item:hover{
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+}
+
+.list-items{
+  text-align: left;
+}
+
+.selected-todo{
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+.selected-info{
+  padding: 5px;
+  width: fit-content;
+  margin: auto;
+}
+
+.selected-button{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.delete-button{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+.completed-button{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
